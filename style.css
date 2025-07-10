@@ -1,0 +1,202 @@
+/* Google Fonts için head içine ekle: 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap" rel="stylesheet">
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Cormorant Infant', serif;
+  background-color: #F2EADC;  /* Yeni arka plan rengi */
+  color: #9A7B56;
+}
+
+.full-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.yuzuk-image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.map-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.map-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #9A7B56;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Cormorant Infant', serif;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.map-button:hover {
+  background-color: #7B6046;
+}
+
+
+/* RSVP Form */
+.rsvp-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+
+h2 {
+  font-weight: 500;       /* Medium */
+  font-size: 25px;
+  font-style: bold;
+  display: block;
+  margin: 0 auto 10px auto;  /* Üst:0, alt:10px, yatay ortalama */
+  color: #9A7B56;
+  text-align: center;     /* Yazıyı ortalar */
+  max-width: 400px;       /* İstersen genişlik verip hizayı kontrol et */
+}
+
+h3 {
+  font-weight: 600;       /* Medium */
+  font-size: 45px;
+  font-style: bold;
+  display: block;
+  margin: 0 auto 10px auto;  /* Üst:0, alt:10px, yatay ortalama */
+  color: #9A7B56;
+  text-align: center;     /* Yazıyı ortalar */
+  max-width: 400px;       /* İstersen genişlik verip hizayı kontrol et */
+}
+
+h4 {
+  font-weight: 500;       /* Medium */
+  font-size: 25px;
+  font-style: bold;
+  display: block;
+  margin: 0 auto 10px auto;  /* Üst:0, alt:10px, yatay ortalama */
+  color: #9A7B56;
+  text-align: center;     /* Yazıyı ortalar */
+  max-width: 400px;       /* İstersen genişlik verip hizayı kontrol et */
+}
+
+.participation-label {
+  font-weight: 500;       /* Medium */
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+  margin: 0 auto 10px auto;  /* Üst:0, alt:10px, yatay ortalama */
+  color: #9A7B56;
+  text-align: center;     /* Yazıyı ortalar */
+  max-width: 400px;       /* İstersen genişlik verip hizayı kontrol et */
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #9A7B56;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 0px solid #9A7B56;
+  border-radius: 0px;
+  font-size: 1em;
+  margin-top: 5px;
+  background-color: #F2EADC;
+  color: #9A7B56;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0px solid #9A7B56;
+  border-radius: 0px;
+  font-size: 1em;
+  margin-top: 5px;
+  background-color: #F2EADC;
+  color: #9A7B56;
+  resize: vertical;
+  transition: none;
+    font-family: 'Cormorant Infant', serif;
+}
+
+form textarea:hover,
+form textarea:focus {
+  background-color: #F2EADC;
+  color: #9A7B56;
+  border: 0px solid #9A7B56;
+  outline: none;
+}
+
+form input[type="radio"] {
+  margin-right: 8px;
+  margin-left: 10px;
+  accent-color: #9A7B56;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9A7B56;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #7B6046;
+}
+
+.required {
+  color: #9A7B56;
+}
+
+.gonder {
+  font-family: 'Cormorant Infant', serif;  /* Zarif font */
+  font-weight: 600;                        /* Biraz daha kalın */
+  font-size: 18px;                         /* Boyut */
+  color: #BFA382;                          /* Normalde daha açık renk */
+  background-color: #F2EADC;           /* Arka plan transparan */
+               /* İnce kenarlık */
+  padding: 10px 20px;
+  border-radius: 8px;                      /* Hafif köşeler */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gonder:hover {
+  color: #ffff;                          /* Hover'da daha koyu */
+ 
+  background-color: #9A7B56;  /* Hafif arka plan efekti */
+}
+
+  
+
+@media (max-width: 480px) {
+  .rsvp-container {
+    padding: 20px 15px;
+  }
+}
